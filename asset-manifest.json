@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tododeploy/static/css/main.ffecab69.css",
+    "main.js": "/tododeploy/static/js/main.c0599f70.js",
+    "index.html": "/tododeploy/index.html",
+    "main.ffecab69.css.map": "/tododeploy/static/css/main.ffecab69.css.map",
+    "main.c0599f70.js.map": "/tododeploy/static/js/main.c0599f70.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ffecab69.css",
+    "static/js/main.c0599f70.js"
+  ]
+}
