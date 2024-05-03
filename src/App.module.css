@@ -1,0 +1,77 @@
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden ;
+  background: radial-gradient(circle, rgb(66, 50, 187,0.2), rgb(53, 3, 100,0.2));
+  background-position: center;
+}
+
+.container {
+
+}
+
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  grid-gap: 100px;
+}
+
+.contentAbout {
+  display: flex;
+  flex-direction: column;
+  padding-left: 150px;
+
+}
+
+h1 {
+  color: white;
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-size: 35px;
+}
+
+.nameOfTask{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  padding-top: 8%;
+}
+
+.textDecoration {
+  color: white;
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  width: 700px;
+  padding-top: 5%;
+}
+
+a {
+  color:rgb(66, 50, 187)
+}
+
+.blockActuality{
+  border-radius: 30px;
+  padding: 20px 20px 20px 20px;
+  background-color: rgba(255, 255, 255, 0.06);
+}
+
+.advertisement {
+  padding-top: 5%;
+  color: rgb(66, 50, 187);
+  text-shadow: 2px 2px 4px purple;
+}
+
+.span {
+  color: rgb(66, 50, 187);
+}
+
+.ImgPrec {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding-top: 40px;
+}

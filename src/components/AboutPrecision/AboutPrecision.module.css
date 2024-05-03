@@ -1,0 +1,25 @@
+.main {
+    font-family: Raleway,sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 45%;
+}
+
+.mainBody {
+    width: 50%;
+}
+
+.span {
+    color: rgb(66, 50, 187);
+    font-size: 35px;
+}
+
+.img {
+    padding-top: 30px;
+}
+

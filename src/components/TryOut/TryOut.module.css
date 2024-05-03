@@ -1,0 +1,112 @@
+main {
+    background: radial-gradient(circle, rgb(66, 50, 187, 0.1), rgb(53, 3, 100, 0.1));
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Raleway, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+
+}
+
+.inputContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    position: fixed;
+    bottom: 0;
+    width: 700px;
+    height: auto;
+    min-height: 60px;
+    max-height: 100px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+}
+
+.input:focus {
+    max-height: 200px;
+}
+
+.yourAnswer {
+    font-family: Raleway, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+
+.response {
+    font-family: Raleway, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+    margin-top: 50px;
+    width: 40%;
+    overflow-y: scroll;
+    max-height: 400px;
+    overflow-x: hidden;
+}
+
+.button {
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 65px;
+    margin-left: 600px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgba(177, 179, 241, 0.82);
+}
+
+@keyframes border-spin {
+    from {
+        border-color: red;
+    }
+    to {
+        border-color: blue;
+    }
+}
+
+.button {
+    border: 1px solid red;
+    animation: border-spin 2s linear infinite;
+}
+
+.span {
+    display: block;
+
+    color: rgb(66, 50, 187);
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Raleway, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+
+}

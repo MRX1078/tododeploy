@@ -1,0 +1,32 @@
+.header {
+    height: 100px;
+    background: black;
+}
+body {
+    background-color: black;
+}
+
+.headerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 40px;
+}
+
+.HeadContainer {
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.HeadContainerTop {
+    color:rgb(66, 50, 187);
+    font-family: Montserrat, sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    text-decoration: none;
+}
